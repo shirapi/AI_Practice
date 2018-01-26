@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="DataSet.cpp" />
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="ActivationFunction.cpp" />
+    <ClCompile Include="CrossEntropyError.cpp">
+      <Filter>Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="SoftMax.cpp">
+      <Filter>Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="SoftMaxWithLoss.cpp">
+      <Filter>Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="Sigmoid.cpp">
+      <Filter>Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="Affine.cpp">
+      <Filter>Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="SGD.cpp">
+      <Filter>UpdatingStyle</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdatingStyleFactory.cpp">
+      <Filter>UpdatingStyle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataSet.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="ActivationFunction.h" />
+    <ClInclude Include="CrossEntropyError.h">
+      <Filter>Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftMax.h">
+      <Filter>Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftMaxWithLoss.h">
+      <Filter>Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Sigmoid.h">
+      <Filter>Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Affine.h">
+      <Filter>Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdatingStyleBase.h">
+      <Filter>UpdatingStyle</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD.h">
+      <Filter>UpdatingStyle</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdatingStyleFactory.h">
+      <Filter>UpdatingStyle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Layer">
+      <UniqueIdentifier>{e354996c-3d5f-4df0-8176-4f4cabded57a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UpdatingStyle">
+      <UniqueIdentifier>{17fb7866-25a4-4360-a745-3d20fd6aa6e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
